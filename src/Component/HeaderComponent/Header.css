@@ -1,0 +1,20 @@
+.menu_superior{
+    display: flex;
+    float: right;
+}
+
+.menu_superior li {
+    float: left;   
+}
+  
+.menu_superior  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}  
+
+.menu_superior li a:hover {
+    background-color: #111;
+}
