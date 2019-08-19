@@ -5,7 +5,7 @@ import './Header.css';
 export const HeaderComponent = (props) => (
     <header className="header">
         <div className="headerTopo">
-            <img src={logo} alt="logo" />
+            <img src={logo} alt="logo" width="200px" />
             <ul className="headerMenu">
                 {props.menuTop.map((element, index) => <li key={index}><a href="#">{element}</a></li>)}
             </ul>

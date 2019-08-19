@@ -5,7 +5,7 @@
 
 #mainContent{
     min-height: 500px;
-    margin: 0px auto;    
+    margin: 0px auto; 
     display: flex; 
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -19,7 +19,7 @@
 
 #mainContent aside{
     background: rgba(110, 110, 110, 0.7);  
-    flex-basis: 300px;
+    width: 70%;
 }
 
 .menuLateral {
@@ -39,4 +39,26 @@
 .menuLateral li a:hover {
     background-color: rgba(110, 110, 110, 0.7);  
 }
+
+.notica  {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;   
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.notica > img{
+    width: 300px;
+}
+
+.notica > div {
+    text-align: justify;
+    margin-left: 10px;
+
+}
+
+
   
