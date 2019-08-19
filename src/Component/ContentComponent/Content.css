@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#mainContent{
+    min-height: 500px;
+    margin: 0px auto;    
+    display: flex; 
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;   
+}
+
+#mainContent section{
+    background: rgba(221, 221, 221, .7);  
+    flex-grow: 1;
+}
+
+#mainContent aside{
+    background: rgba(110, 110, 110, 0.7);  
+    flex-basis: 300px;
+}
+
+.menuLateral {
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+}
+  
+.menuLateral  li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+    padding: 10px;
+}  
+
+.menuLateral li a:hover {
+    background-color: rgba(110, 110, 110, 0.7);  
+}
+  

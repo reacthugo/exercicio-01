@@ -1,16 +1,12 @@
 import React from 'react';
 import './NavBar.css';
 
-export const NavBarComponent = () => (
+export const NavBarComponent = (props) => (
     <div className="corpo">
         <nav className="menu">
             <div className="center">
                 <ul>
-                    <li><a href="#">Section 1</a></li>
-                    <li><a href="#">Section 2</a></li>
-                    <li><a href="#">Section 3</a></li>
-                    <li><a href="#">Section 4</a></li>
-                    <li><a href="#">Section 5</a></li>
+                    {props.menuPrincipal.map((element, index) => <li key={index}><a href="#">{element}</a></li>)}
                 </ul>
             </div>
         </nav>
